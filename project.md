@@ -38,7 +38,7 @@ java.nio.file.AccessDeniedException: /home/ubuntu/ansible-config-artifact
 
 - Move the previously created `common.yml` playbook into a newly created `static-assignments` folder.
 
-- Inside the `static-asignments` folder, create another playbook called `common-del.yml` reference in the `site.yml` playbook.
+- Inside the `static-asignments` folder, create another playbook called `common-del.yml`. Create the `site.yml` playbook in the `playbooks` folder as this would be used as the entry point to the entire infrasturcture.
 
 - In the previous project, Wireshark was installed using `common.yml`. Here in `common-del.yml`, Wireshark will be removed. Use the below to config the `common-del.yml` file.
 
