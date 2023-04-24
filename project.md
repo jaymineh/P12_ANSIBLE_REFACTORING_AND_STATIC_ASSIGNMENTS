@@ -3,7 +3,7 @@
 **Step 1 - Jenkins Job Enhancement**
 ---
 
-*Note that the goal in this step is to clean up/optimize the Jenkins build process. Previously, every change will lead to Jenkins creating a new folder for each new build. This would be a problem in the future due to space being consumed on the Jenkins server. This is curtailed in this step as Jenkins woould be configured to keep only 3 of the latest builds and discard the rest, saving much needed space.*
+*Note that the goal in this step is to clean up/optimize the Jenkins build process. Previously, every change will lead to Jenkins creating a new folder for each new build. This would be a problem in the future due to space being consumed on the Jenkins server. This is curtailed in this step as Jenkins would be configured to keep only 3 of the latest builds and discard the rest, saving much needed space.*
 
 - Create a new folder on the Jenkins server to save all artifacts after each build. This folder will be used to house the artifacts copied from the original `/var/lib/jenkins/` folder.
 
